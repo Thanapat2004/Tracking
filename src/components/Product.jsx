@@ -1,0 +1,75 @@
+export const products = [
+  {
+    trackingCode: '1234567890',
+    location: 'Bangkok',
+    sender: { name: 'Sender Company A' },
+    recipient: { name: 'Recipient A' },
+    shippingCompany: 'Shipping Company A',
+    trackingJourney: [
+      { date: "2024-10-10", location: "Bangkok", status: "Picked Up" },
+      { date: "2024-10-11", location: "Chiang Mai", status: "In Transit" },
+      { date: "2024-10-12", location: "Chiang Mai", status: "Delivered" },
+      { date: "2024-10-13", location: "Chiang Mai", status: "Arrived at Facility" },
+      { date: "2024-10-14", location: "Bangkok", status: "Out for Delivery" },
+
+    ],
+  },
+  {
+    trackingCode: '0987654321',
+    location: 'Chiang Mai',
+    sender: { name: 'Sender Company B' },
+    recipient: { name: 'Recipient B' },
+    shippingCompany: 'Shipping Company B',
+    trackingJourney: [
+      { date: "2024-10-09", location: "Chiang Mai", status: "Picked Up" },
+      { date: "2024-10-10", location: "Bangkok", status: "In Transit" },
+      { date: "2024-10-11", location: "Bangkok", status: "Arrived at Facility" },
+      { date: "2024-10-12", location: "Bangkok", status: "Out for Delivery" },
+      { date: "2024-10-13", location: "Bangkok", status: "Delivered" },
+    ],
+  },
+  {
+    trackingCode: '1122334455',
+    location: 'Phuket',
+    sender: { name: 'Sender Company C' },
+    recipient: { name: 'Recipient C' },
+    shippingCompany: 'Shipping Company C',
+    trackingJourney: [
+      { date: "2024-10-01", location: "Phuket", status: "Picked Up" },
+      { date: "2024-10-02", location: "Bangkok", status: "In Transit" },
+      { date: "2024-10-03", location: "Bangkok", status: "Arrived at Facility" },
+      { date: "2024-10-04", location: "Bangkok", status: "Out for Delivery" },
+      { date: "2024-10-05", location: "Phuket", status: "Delivered" },
+    ],
+  },
+  {
+    trackingCode: '2233445566',
+    location: 'Chiang Mai',
+    sender: { name: 'Sender Company D' },
+    recipient: { name: 'Recipient D' },
+    shippingCompany: 'Shipping Company D',
+    trackingJourney: [
+      { date: "2024-10-05", location: "Chiang Mai", status: "Picked Up" },
+      { date: "2024-10-06", location: "Bangkok", status: "In Transit" },
+      { date: "2024-10-07", location: "Bangkok", status: "Arrived at Facility" },
+      { date: "2024-10-08", location: "Bangkok", status: "Out for Delivery" },
+      { date: "2024-10-09", location: "Chiang Mai", status: "Delivered" },
+    ],
+  },
+  {
+    trackingCode: '3344556677',
+    location: 'Bangkok',
+    sender: { name: 'Sender Company E' },
+    recipient: { name: 'Recipient E' },
+    shippingCompany: 'Shipping Company E',
+    trackingJourney: [
+      { date: "2024-10-05", location: "Bangkok", status: "Picked Up" },
+      { date: "2024-10-06", location: "Chiang Mai", status: "In Transit" },
+      { date: "2024-10-07", location: "Chiang Mai", status: "Arrived at Facility" },
+      { date: "2024-10-08", location: "Chiang Mai", status: "Out for Delivery" },
+      { date: "2024-10-09", location: "Bangkok", status: "Delivered" },
+      { date: "2024-10-10", location: "Bangkok", status: "Returned to Sender" },
+    ],
+  },
+  // คุณสามารถเพิ่มข้อมูลเพิ่มเติมตามต้องการ
+];
